@@ -13,9 +13,9 @@ public class RunJob {
 
 	public static void main(String[] args) {
 		Configuration config = new Configuration();
-		config.set("fs.defaultFS", "hdfs://linux1:8020");
-		config.set("yarn.resourcemanager.hostname", "linux1");
-		//config.set("mapred.jar", "D:\\testProduct\\wc.jar");
+		//config.set("fs.defaultFS", "hdfs://linux1:8020");
+		//config.set("yarn.resourcemanager.hostname", "linux1");
+		//config.set("mapred.jar", "D:\\alc\\testPersion\\wc.jar");
 		try {
 			FileSystem fs = FileSystem.get(config);
 
